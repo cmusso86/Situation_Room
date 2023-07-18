@@ -1,6 +1,7 @@
 rm(list=ls())
 if (!require("pacman")) install.packages("pacman")
-pacman::p_load(tidyverse, sf , rio, ggthemes)
+pacman::p_load(tidyverse, sf , rio, 
+               ggthemes, funModeling, haven, corrplot)
 
 
 ## BASES ----
